@@ -1,0 +1,42 @@
+.profile-pic{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.user-card-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px dotted rgba(137, 137, 173, 0.907);
+  margin-right: 40px;
+  
+}
+.user-name{
+  font-size: 25px;
+}
+.delete-img{
+  height: 20px;
+  width: 30px;
+  
+}
+.mini-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delete-button{
+  border-radius: 50%;
+  outline-style: none;
+  border-style: none;
+  height: 80px;
+}
+.delete-button:hover{
+  background-color: rgb(193, 186, 186);
+  cursor: pointer;
+}
+input{
+  width: 50%;
+  height: 32px;
+}
